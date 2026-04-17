@@ -3,29 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | Speak-o-Meter</title>
+    <title>Delete Account | Speak-o-Meter</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
-        :root { --bg: #0F0B1F; --card: rgba(255, 255, 255, 0.05); --accent: #A855F7; --cyan: #22D3EE; --text: #F8FAFC; --text-dim: #94A3B8; }
-        body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 40px 20px; }
-        .container { max-width: 800px; margin: 0 auto; background: var(--card); padding: 40px; border-radius: 24px; border: 1px solid rgba(255, 255, 255, 0.1); }
-        h1 { font-size: 42px; font-weight: 800; margin-bottom: 24px; background: linear-gradient(to right, var(--cyan), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        h2 { color: var(--cyan); margin-top: 32px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; }
-        p, li { color: var(--text-dim); }
-        .highlight { color: var(--text); font-weight: 600; }
+        :root { --bg: #0F0B1F; --card: rgba(255, 255, 255, 0.05); --danger: #EF4444; --text: #F8FAFC; --text-dim: #94A3B8; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: var(--text); display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; padding: 20px; }
+        .container { max-width: 500px; background: var(--card); padding: 40px; border-radius: 24px; border: 1px solid rgba(255, 255, 255, 0.1); text-align: center; }
+        h1 { font-size: 32px; font-weight: 800; color: var(--danger); margin-bottom: 16px; }
+        .btn-delete { background: var(--danger); color: white; padding: 14px 28px; border-radius: 12px; border: none; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Privacy Policy</h1>
-        <p>Last Updated: April 2026</p>
-        <p>At <span class="highlight">Speak-o-Meter</span>, we use <strong>On-Device AI</strong> (TensorFlow Lite) to ensure your voice analysis remains 100% private. Your audio is analyzed locally and is never uploaded to any server.</p>
-        <h2>1. Information we collect</h2>
-        <p>We only store your Email and Name to sync your local progress. No speech data is collected or shared.</p>
-        <h2>2. Data Deletion</h2>
-        <p>You can request data removal here: <a href="https://manu192225112.github.io/speakometer-deleteaccount/" style="color: var(--cyan);">Delete My Account</a>.</p>
-        <h2>3. Contact</h2>
-        <p><span class="highlight">V. Sai Manu</span><br>Email: v.s.manu2004@gmail.com</p>
+        <h1>Delete Account</h1>
+        <p>Removing your account will permanently delete your speech metrics and history from our local records.</p>
+        <a href="mailto:v.s.manu2004@gmail.com?subject=Delete%20My%20Speakometer%20Account" class="btn-delete">Request Deletion</a>
     </div>
 </body>
 </html>
