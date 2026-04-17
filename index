@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Speak-o-Meter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0F0B1F;
+            --card: rgba(255, 255, 255, 0.05);
+            --accent: #A855F7;
+            --cyan: #22D3EE;
+            --text: #F8FAFC;
+            --text-dim: #94A3B8;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card);
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+        }
+        h1 { font-size: 42px; font-weight: 800; margin-bottom: 24px; background: linear-gradient(to right, var(--cyan), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        h2 { color: var(--cyan); margin-top: 32px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; }
+        p, li { color: var(--text-dim); font-size: 16px; }
+        .highlight { color: var(--text); font-weight: 600; }
+        footer { margin-top: 40px; text-align: center; color: var(--text-dim); font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p>Last Updated: April 2026</p>
+        
+        <p>At <span class="highlight">Speak-o-Meter</span>, we believe your voice belongs to you. Our application is built with a "Privacy-First" architecture, ensuring your speech analysis remains completely confidential.</p>
+
+        <h2>1. 100% On-Device Processing</h2>
+        <p>Unlike other voice apps, <span class="highlight">Speak-o-Meter uses local AI (TensorFlow Lite)</span>. Your audio recordings are processed entirely on your physical device. No audio data is ever uploaded to our servers or third-party cloud services.</p>
+
+        <h2>2. Data Collection</h2>
+        <p>We only collect the minimum information required for the app to function:</p>
+        <ul>
+            <li><span class="highlight">Account Information:</span> Your name and email used for registration and syncing local progress.</li>
+            <li><span class="highlight">Speech Metrics:</span> Statistics like your "Fluency Score" and "WPM" are stored securely to help you track progress.</li>
+        </ul>
+
+        <h2>3. Permissions</h2>
+        <p>The app requires <span class="highlight">Microphone Access</span> solely to capture your voice for analysis. This access is only active when you tap the record button.</p>
+
+        <h2>4. Data Deletion</h2>
+        <p>You have the right to delete your account and all associated data at any time through our <a href="../delete-account/" style="color: var(--cyan);">Account Deletion Page</a>.</p>
+
+        <h2>5. Contact Us</h2>
+        <p>If you have questions about this policy, contact the developer:<br>
+        <span class="highlight">V. Sai Manu</span><br>
+        Email: manu192225112@gmail.com</p>
+    </div>
+    <footer>© 2026 Speak-o-Meter. Built for Student Privacy.</footer>
+</body>
+</html>
